@@ -1,6 +1,5 @@
 // rekognitionService.js
 import AWS from 'aws-sdk';
-import fs from 'fs/promises'; // Make sure to import fs from 'fs/promises'
 
 AWS.config.update({
   region: process.env.AWS_REGION,
